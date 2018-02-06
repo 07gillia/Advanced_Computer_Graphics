@@ -131,14 +131,14 @@ Not sure about the rendering efficiency.
 Explain how progressive meshes implement the refinement and decimation processes. \\
 \fi
 
-
+The refinement process data structures stores the data split that occurs for each of the vertices, this allows for each vertex to be split into two, of which the triangles stored as part of the data structure along with the coordinates of the two new vertices fit allowing for greater fitting to the model and higher granularity, this is the refinement process. The decimation process is calculated using the data split, as this is the inverse of the contraction operation, it is a straightforward inverse to calculate the corresponding contraction operation for each of the data splits, this allows for the decimation process to be done.
 
 \section*{Question Five}
 
 \iffalse
 20 marks \\
 200 words \\
- Analyse how the incorporation of level-of-detail modeling impacts the rendering performance
+Analyse how the incorporation of level-of-detail modeling impacts the rendering performance
 and network bandwidth consumption of a large distributed virtual environment system.
 Evaluate the suitability of using progressive meshes to implement the level-of-detail modeling
 in such a system. \\

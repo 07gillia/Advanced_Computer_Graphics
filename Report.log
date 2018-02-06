@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.6)  6 FEB 2018 14:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.6)  6 FEB 2018 14:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1035,18 +1035,18 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 164.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 13986 strings out of 493014
- 219954 string characters out of 6133351
+ 13989 strings out of 493014
+ 219978 string characters out of 6133351
  443613 words of memory out of 5000000
  17247 multiletter control sequences out of 15000+600000
- 82033 words of font info for 120 fonts, out of 8000000 for 9000
+ 82163 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,10n,51p,8509b,2612s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc
 }</usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/
 local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Report.pdf (2 pages, 33349 bytes).
+Output written on Report.pdf (2 pages, 33878 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  30 compressed objects within 1 object stream
