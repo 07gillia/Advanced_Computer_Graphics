@@ -107,7 +107,7 @@ between two polygon meshes, even when these meshes are formed by different numbe
 vertices and connectivity. \\
 \fi
 
-
+The Hausdorff distance can be applied where there are a miss matched number of points in each of the meshes as they are not 'paired up' in such a way that this is necessary. A point from $M_1$ will calculate the distance to the nearest point in the mesh $M_2$, this is done in such a way that multiple points from $M_1$ can measure a distance to a single point in$M_2$. This is only done within a local area and if no point is found the distance is set at a maximum. This is also done backwards; $M_2$ points are matched to the nearest $M_1$ points, the two sets of distances are then used to give a metric for comparability, be that mean of all values or sum of all values.
 
 \section*{Question Three}
 
@@ -119,7 +119,9 @@ progressive meshes visualisation, given that the user is allowed to freely rotat
 during the visualisation process. \\
 \fi
 
+Providing the same functionality as the simplification stream, meaning that at any point we can reconstruct any intermediate model in the simplification process. The benefits of the progressive over the simplification is that the resulting representation can be smaller than the original model and reconstruction time is proportional to the desired approximation size. The progressive mesh exploits the fact that the contraction operation is reversible and is in essence a reversed simplification stream. For each of the contractions in the simplification stream we define a corresponding inverse, called a vertex split. Along with the base mesh or original model we can store each of these vertex splits, each must encode the vertex being split, positions of the two resulting vertices, and which triangles to introduce into the mesh. Not only being able to encode intermediate steps but also being an efficient compression technique. \\
 
+Not sure about the rendering efficiency.
 
 \section*{Question Four}
 

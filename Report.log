@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.6)  6 FEB 2018 12:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.6)  6 FEB 2018 14:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -967,6 +967,18 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              This could result in several error messages on input li
 ne 100.
 
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 110.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 7.63599pt on input line 110.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 110.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 110.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 7.63599pt on input line 110.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 110.
 
 Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              You've used the KOMA-Script implementation of \@ssect
@@ -976,61 +988,68 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 ne 112.
 
 
-Class scrartcl Warning: incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input li
-ne 124.
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
+ []
 
-Class scrartcl Warning: incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input li
-ne 134.
-
-
-Class scrartcl Warning: incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input li
-ne 150.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
 [1
 
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
 
-(./Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
+Class scrartcl Warning: incompatible usage of \@ssect detected.
+(scrartcl)              You've used the KOMA-Script implementation of \@ssect
+(scrartcl)              from within a non compatible caller, that does not
+(scrartcl)              \scr@s@ct@@nn@m@ locally.
+(scrartcl)              This could result in several error messages on input li
+ne 126.
+
+
+Class scrartcl Warning: incompatible usage of \@ssect detected.
+(scrartcl)              You've used the KOMA-Script implementation of \@ssect
+(scrartcl)              from within a non compatible caller, that does not
+(scrartcl)              \scr@s@ct@@nn@m@ locally.
+(scrartcl)              This could result in several error messages on input li
+ne 136.
+
+
+Class scrartcl Warning: incompatible usage of \@ssect detected.
+(scrartcl)              You've used the KOMA-Script implementation of \@ssect
+(scrartcl)              from within a non compatible caller, that does not
+(scrartcl)              \scr@s@ct@@nn@m@ locally.
+(scrartcl)              This could result in several error messages on input li
+ne 152.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 164.
+[2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 164.
+ (./Report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 164.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 164.
 Package rerunfilecheck Info: File `Report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 164.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 13917 strings out of 493014
- 218833 string characters out of 6133351
- 442613 words of memory out of 5000000
- 17199 multiletter control sequences out of 15000+600000
- 56912 words of font info for 82 fonts, out of 8000000 for 9000
+ 13986 strings out of 493014
+ 219954 string characters out of 6133351
+ 443613 words of memory out of 5000000
+ 17247 multiletter control sequences out of 15000+600000
+ 82033 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,10n,51p,8509b,2612s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc
-}</usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Report.pdf (1 page, 19283 bytes).
+}</usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on Report.pdf (2 pages, 33349 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
- 21 compressed objects within 1 object stream
- 8 named destinations out of 1000 (max. 500000)
- 15873 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 38 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
+ 9 named destinations out of 1000 (max. 500000)
+ 17409 words of extra memory for PDF output out of 20736 (max. 10000000)
 
