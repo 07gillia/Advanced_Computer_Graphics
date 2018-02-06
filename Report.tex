@@ -1,0 +1,134 @@
+%\title{Project Report}
+%
+%%% Preamble
+\documentclass[paper=a4, fontsize=11pt]{scrartcl}
+\usepackage[T1]{fontenc}
+\usepackage{fourier}
+\usepackage{listings}
+\usepackage{times}
+\usepackage{harvard}
+
+\usepackage[english]{babel}															% English language/hyphenation
+\usepackage[protrusion=true,expansion=true]{microtype}	
+\usepackage{amsmath,amsfonts,amsthm} % Math packages
+\usepackage[pdftex]{graphicx}	
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage[margin=1.00in]{geometry}
+\usepackage{amsmath}
+\usepackage[]{algorithm2e}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{braket}
+
+\citationmode{abbr}
+\bibliographystyle{agsm}
+
+\DeclareOldFontCommand{\rm}{\normalfont\rmfamily}{\mathrm}
+\DeclareOldFontCommand{\sf}{\normalfont\sffamily}{\mathsf}
+\DeclareOldFontCommand{\tt}{\normalfont\ttfamily}{\mathtt}
+\DeclareOldFontCommand{\bf}{\normalfont\bfseries}{\mathbf}
+\DeclareOldFontCommand{\it}{\normalfont\itshape}{\mathit}
+\DeclareOldFontCommand{\sl}{\normalfont\slshape}{\@nomath\sl}
+\DeclareOldFontCommand{\sc}{\normalfont\scshape}{\@nomath\sc}
+\DeclareRobustCommand*\cal{\@fontswitch\relax\mathcal}
+\DeclareRobustCommand*\mit{\@fontswitch\relax\mathnormal}
+
+%%% Custom sectioning
+\usepackage{sectsty}
+\allsectionsfont{\centering \normalfont\scshape}
+
+
+%%% Custom headers/footers (fancyhdr package)
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\fancyhead{}											% No page header
+\fancyfoot[L]{}											% Empty 
+\fancyfoot[C]{}											% Empty
+\fancyfoot[R]{\thepage}									% Pagenumbering
+\renewcommand{\headrulewidth}{0pt}			% Remove header underlines
+\renewcommand{\footrulewidth}{0pt}				% Remove footer underlines
+\setlength{\headheight}{3.6pt}
+\date{}
+
+
+%%% Equation and float numbering
+\numberwithin{equation}{section}		% Equationnumbering: section.eq#
+\numberwithin{figure}{section}			% Figurenumbering: section.fig#
+\numberwithin{table}{section}				% Tablenumbering: section.tab#
+
+
+%%% Maketitle metadata
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} 	% Horizontal rule
+
+\title{
+		\vspace{-1in} 	
+		\usefont{OT1}{bch}{b}{n}
+		\normalfont \normalsize \textsc{Durham Computer Science} \\ [5pt]
+		\horrule{0.5pt} \\[0.4cm]
+		\huge  Advanced Computer Graphics Summative Assignment - LLLL76\\
+		\horrule{2pt} \\[0.5cm]
+		\vspace{-1in} 	
+}
+
+%%% Begin document
+\begin{document}
+\maketitle
+
+\section*{Question One - 20 marks}
+
+Compare the main difference between applying appearance-based metric and geometric based
+metric to measure the quality difference between two polygon meshes. Analyse in
+which part of the graphics rendering pipeline each metric should be applied to perform quality
+measurement. \\
+
+
+
+\section*{Question Two - 10 marks}
+
+Explain how the Hausdorff distance can serve as a metric to determine the dissimilarity
+between two polygon meshes, even when these meshes are formed by different number
+vertices and connectivity.\\
+
+
+
+\section*{Question Three - 20 marks}
+
+Describe the data structure of progressive meshes. Analyse the rendering efficiency of
+progressive meshes visualisation, given that the user is allowed to freely rotate the viewpoint
+during the visualisation process.\\
+
+
+
+\section*{Question Four - 10 marks}
+
+Explain how progressive meshes implement the refinement and decimation processes.\\
+
+
+
+\section*{Question Five - 20 marks}
+
+ Analyse how the incorporation of level-of-detail modeling impacts the rendering performance
+and network bandwidth consumption of a large distributed virtual environment system.
+Evaluate the suitability of using progressive meshes to implement the level-of-detail modeling
+in such a system.\\
+Note that in the above distributed virtual environment system, all graphics models of the virtual
+environment are maintained by a remote server. During runtime, each client will download
+relevant graphics models on-demand from the server to support interaction and visualisation.
+
+
+
+\section*{Question Six - 20 marks}
+
+Explain the main issue of applying level-of-detail modeling to support interactive visualisation
+of a large 3D scene, given that the user is allowed to change the viewpoint from time to time.
+Describe two different methods to tackle such a challenge. \\
+
+
+
+\end{document}
