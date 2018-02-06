@@ -80,54 +80,82 @@
 \begin{document}
 \maketitle
 
-\section*{Question One - 20 marks}
+\section*{Question One}
 
+\iffalse
+20 marks \\
+200 words \\
 Compare the main difference between applying appearance-based metric and geometric based
 metric to measure the quality difference between two polygon meshes. Analyse in
 which part of the graphics rendering pipeline each metric should be applied to perform quality
 measurement. \\
+\fi
 
+An appearance based metric is centred around using the perceivable difference between two corresponding raster images that are produced by the renderer. The difference can be calculated as the average sum of squared differences between all corresponding pixels, using the euclidean distance between two RGB vectors as representation of the distance between two pixel values. There are more complex methods of difference calculation between two vectors but this works well in this domain. If the difference between the vectors is small then the model is a good representation of appearance in this specific view, a total can be given as the integral over a finite set of viewpoints. The benefits of this method is that similarity of appearance is directly measured and occluded details can be removed without introduction of any error. The problems are that sufficient sampling of the possible viewpoints needs to be done so as to avoid removing perceptually important features, which leads to expensive rendering step sometimes being required, only a reduced number of samples can be taken.\\
 
+A geometric based metric is based around producing a geometrically faithful representation of the data using techniques derived from function approximation. This does not allow for removal of features that are occluded as this is not known, which leads to an increased number of points being fitted to, however many viewpoints are not calculated as all features are represented. \\
 
-\section*{Question Two - 10 marks}
+The appearance based metric should be calculated after a model is displayed, this is towards the end of the pipeline. The geometric based metric should be done after the rendering but before the model is displayed.
 
+\section*{Question Two}
+
+\iffalse
+10 marks \\
+100 words \\
 Explain how the Hausdorff distance can serve as a metric to determine the dissimilarity
 between two polygon meshes, even when these meshes are formed by different number
-vertices and connectivity.\\
+vertices and connectivity. \\
+\fi
 
 
 
-\section*{Question Three - 20 marks}
+\section*{Question Three}
 
+\iffalse
+20 marks \\
+200 words \\
 Describe the data structure of progressive meshes. Analyse the rendering efficiency of
 progressive meshes visualisation, given that the user is allowed to freely rotate the viewpoint
-during the visualisation process.\\
+during the visualisation process. \\
+\fi
 
 
 
-\section*{Question Four - 10 marks}
+\section*{Question Four}
 
-Explain how progressive meshes implement the refinement and decimation processes.\\
+\iffalse
+10 marks \\
+100 marks \\
+Explain how progressive meshes implement the refinement and decimation processes. \\
+\fi
 
 
 
-\section*{Question Five - 20 marks}
+\section*{Question Five}
 
+\iffalse
+20 marks \\
+200 words \\
  Analyse how the incorporation of level-of-detail modeling impacts the rendering performance
 and network bandwidth consumption of a large distributed virtual environment system.
 Evaluate the suitability of using progressive meshes to implement the level-of-detail modeling
-in such a system.\\
+in such a system. \\
 Note that in the above distributed virtual environment system, all graphics models of the virtual
 environment are maintained by a remote server. During runtime, each client will download
-relevant graphics models on-demand from the server to support interaction and visualisation.
+relevant graphics models on-demand from the server to support interaction and visualisation. \\
+\fi
 
 
 
-\section*{Question Six - 20 marks}
+\section*{Question Six}
 
+\iffalse
+20 marks \\
+200 words \\
 Explain the main issue of applying level-of-detail modeling to support interactive visualisation
 of a large 3D scene, given that the user is allowed to change the viewpoint from time to time.
 Describe two different methods to tackle such a challenge. \\
+\fi
 
 
 
