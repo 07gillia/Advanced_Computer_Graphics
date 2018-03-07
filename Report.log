@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.6)  7 MAR 2018 15:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.6)  7 MAR 2018 16:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1002,7 +1002,7 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 126.
+ne 124.
 
 
 Class scrartcl Warning: incompatible usage of \@ssect detected.
@@ -1010,7 +1010,7 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 136.
+ne 134.
 
 
 Class scrartcl Warning: incompatible usage of \@ssect detected.
@@ -1018,17 +1018,17 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 152.
+ne 150.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 164.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
 [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 164.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
  (./Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 164.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 164.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
 Package rerunfilecheck Info: File `Report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 164.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
  )
 (\end occurred inside a group at level 1)
 
@@ -1046,7 +1046,7 @@ Here is how much of TeX's memory you used:
 }</usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/
 local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Report.pdf (2 pages, 36025 bytes).
+Output written on Report.pdf (2 pages, 36001 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  30 compressed objects within 1 object stream

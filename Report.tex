@@ -121,8 +121,6 @@ during the visualisation process. \\
 
 Providing the same functionality as the simplification stream, meaning that at any point we can reconstruct any intermediate model in the simplification process. The benefits of the progressive over the simplification is that the resulting representation can be smaller than the original model and reconstruction time is proportional to the desired approximation size. The progressive mesh exploits the fact that the contraction operation is reversible and is in essence a reversed simplification stream. For each of the contractions in the simplification stream we define a corresponding inverse, called a vertex split. Along with the base mesh or original model we can store each of these vertex splits, each must encode the vertex being split, positions of the two resulting vertices, and which triangles to introduce into the mesh. Not only being able to encode intermediate steps but also being an efficient compression technique. \\
 
-Not sure about the rendering efficiency.
-
 \section*{Question Four}
 
 \iffalse
