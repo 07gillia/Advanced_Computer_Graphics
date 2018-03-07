@@ -127,7 +127,7 @@ Not sure about the rendering efficiency.
 
 \iffalse
 10 marks \\
-100 marks \\
+100 words \\
 Explain how progressive meshes implement the refinement and decimation processes. \\
 \fi
 
@@ -147,7 +147,7 @@ environment are maintained by a remote server. During runtime, each client will 
 relevant graphics models on-demand from the server to support interaction and visualisation. \\
 \fi
 
-
+Level-of-detail modelling is defined as reducing the storage size of a given model such that the detail of the model is of a pre-specified level. This is done by reducing the number of polygons used to represent distant objects as fine details become less visible at greater distances. This method has the drawback of requiring the whole model to be sent to the client before rendering can be performed, unlike other objecting encoding methods. A progressive mesh is a a method in which a model is decomposed into a base mesh and a sequence of progressive records. The base mesh represents a minimum resolution that the model can be represented by and each of the sequence of progressive records is a node split that will increase resolution of the model. The records can be applied up to any degree within scope to allow for fine grain resolution changes. The data for a given resolution can be requested in an on demand style, allowing for bandwidth usage to be controlled. This is a very suitable for a network that has bandwidth limitations.
 
 \section*{Question Six}
 
@@ -159,6 +159,6 @@ of a large 3D scene, given that the user is allowed to change the viewpoint from
 Describe two different methods to tackle such a challenge. \\
 \fi
 
-
+A large 3D scene will have obscured faces that LOD modelling does not take into account, this will incur a time cost. Any parts of the scene may be out of the frustum at any given time, LOD does not take this into account and will incur a time cost. If the LOD technique is view-independent then the level of detail across the whole scene will be the same and this fails to take into account the distance factor and will not provide an appropriate level of detail across the whole model, this is the main problem with LOD. The first more basic method for reducing render time is to apply hierarchical culling. This will remove any faces that are out of view and thus reduce the render time. The second method is based on view frustum, surface orientation, and screen-space geometric error, and will develop a real-time algorithm for incrementally refining and coarsening the mesh according to these criteria to allow for variable meshes to be used throughout the model whilst maintaining a smooth visual transition between any two different meshes. This is done through the basic idea of iterating through all active vertices before rendering and either split it. collapse it, or leave it as it is based on the criteria stated before.
 
 \end{document}
